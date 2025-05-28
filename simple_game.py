@@ -101,7 +101,8 @@ class Simple(Game):
         jokes = (
             ('Why are leopards bad at hiding?', 'Because they are always spotted.'),
             ('What did the pirate say on his 80th birthday?', 'Aye Matey.'),
-            ('e was at a party looking lonely, so 5x+7 asked if they wanted to integrate. What did e say in response?', 'It would not make a difference.')
+            ('e was at a party looking lonely, so 5x+7 asked if they wanted to integrate. What did e say in response?', 'It would not make a difference.'),
+            ('What do you call a fish without eyes?', 'fsh')
         )
         joke, answer = choice(jokes)
         print(joke)
