@@ -9,7 +9,7 @@ from engine.event import Event
 from engine.player_attributes import PlayerAttributes
 from engine.transition import Transition
 
-
+# Idea: This should have some Star Wars elements added.
 class ShipGame(Game):
     def __init__(self):
         super().__init__()
