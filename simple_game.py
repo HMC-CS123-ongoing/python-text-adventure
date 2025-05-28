@@ -100,7 +100,8 @@ class Simple(Game):
     def joke_of_the_day(self) -> int:
         jokes = (
             ('Why are leopards bad at hiding?', 'Because they are always spotted.'),
-            ('What did the pirate say on his 80th birthday?', 'Aye Matey.')
+            ('What did the pirate say on his 80th birthday?', 'Aye Matey.'),
+            ('e was at a party looking lonely, so 5x+7 asked if they wanted to integrate. What did e say in response?', 'It would not make a difference.')
         )
         joke, answer = choice(jokes)
         print(joke)
